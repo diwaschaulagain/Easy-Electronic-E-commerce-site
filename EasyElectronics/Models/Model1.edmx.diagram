@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="19fd45b3b56d49a68541ebb09239ab85" Name="Diagram1">
+        <EntityTypeShape EntityType="EasyElecDBModel.tblCart" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyElecDBModel.tblCategory" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyElecDBModel.tblOrder" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyElecDBModel.tblOrderDetail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyElecDBModel.tblProduct" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyElecDBModel.tblRole" Width="1.5" PointX="5.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyElecDBModel.tblUser" Width="1.5" PointX="5.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyElecDBModel.tblUserRole" Width="1.5" PointX="8" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="EasyElecDBModel.FK_tblCart_tblProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyElecDBModel.FK_tblProduct_tblCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyElecDBModel.FK_tblOrderDetail_tblOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyElecDBModel.FK_tblOrderDetail_tblProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyElecDBModel.FK_tblUserRole_tblRole" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyElecDBModel.FK_tblUserRole_tblUser" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
